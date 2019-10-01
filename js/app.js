@@ -30,6 +30,14 @@ if(myFavoriteColor === 'no') {
   alert('I love turquoise, but my favorite color is purple');
 }
 
+var myLastJob = prompt('My last job was in advertising?');
+myLastJob = myLastJob.toLowerCase();
+
+if(myLastJob === 'no') {
+  alert('I worked in Marketing Communications in my past life');
+} else {
+  alert('Nope, I\'ve never worked in advertising');
+}
 
 
 
