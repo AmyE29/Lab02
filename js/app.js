@@ -12,3 +12,14 @@ if(whereWasIBorn === 'yes') {
   alert('You\'re right! I was born in Omaha Nebraska!');
 }
 
+var didIgoToCollege = prompt('Did I attend a 4 year college?');
+didIgoToCollege = didIgoToCollege.toLowerCase();
+
+if(didIgoToCollege === 'yes') {
+  alert('Yep! I attended Western Washington University!');
+} else {
+  alert('I did, I went to Western Washginton Univeristy, GO Vikings!!');
+}
+
+
+
