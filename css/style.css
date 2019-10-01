@@ -1,0 +1,29 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(178, 248, 248)
+}
+/* the area below styles the header */
+
+header {
+        height: 100px;
+        margin: 0 auto;
+        background-color: rgb(169, 160, 252);
+        font-size: 20pt;
+        text-align: center;
+     }
+
+/* the area below styles the body>main */
+
+img {
+    height: 200px;
+    width: 175px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
