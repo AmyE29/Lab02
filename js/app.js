@@ -21,5 +21,15 @@ if(didIgoToCollege === 'yes') {
   alert('I did, I went to Western Washginton Univeristy, GO Vikings!!');
 }
 
+var myFavoriteColor = prompt('Is my favorite color turquoise?');
+myFavoriteColor = myFavoriteColor.toLowerCase();
+
+if(myFavoriteColor === 'no') {
+  alert('Of course its not! My fovorite color is purple');
+} else {
+  alert('I love turquoise, but my favorite color is purple');
+}
+
+
 
 
