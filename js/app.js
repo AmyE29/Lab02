@@ -39,5 +39,18 @@ if(myLastJob === 'no') {
   alert('Nope, I\'ve never worked in advertising');
 }
 
+var howManyKids = prompt('Do I have 3 kids?');
+howManyKids = howManyKids.toLowerCase();
+
+if(howManyKids === 'no') {
+  alert('I have 4 kids! OMG!!');
+} else {
+  alert('No, not 3.  I have 4 kids, but the youngest 2 are twins');
+}
+
+// eslint-disable-next-line no-unused-vars
+var thankYou = alert('Thank you '+ userName + '!  I hope you enjoyed my quiz!');
+
+
 
 
