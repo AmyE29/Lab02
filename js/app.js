@@ -1,9 +1,11 @@
 'use strict';
 
 var userName = prompt('What\'s your name?');
+// console.log(userName);
 alert('Hi ' + userName + '!');
 
 var whereWasIBorn = prompt('Hi! I\'m Amy, was I born in Washington?');
+// console.log(whereWasIBorn);
 whereWasIBorn = whereWasIBorn.toLowerCase();
 
 if(whereWasIBorn === 'yes') {
@@ -13,6 +15,7 @@ if(whereWasIBorn === 'yes') {
 }
 
 var didIgoToCollege = prompt('Did I attend a 4 year college?');
+// console.log(didIgoToCollege);
 didIgoToCollege = didIgoToCollege.toLowerCase();
 
 if(didIgoToCollege === 'yes') {
@@ -22,6 +25,7 @@ if(didIgoToCollege === 'yes') {
 }
 
 var myFavoriteColor = prompt('Is my favorite color turquoise?');
+// console.log(myFavoriteColor);
 myFavoriteColor = myFavoriteColor.toLowerCase();
 
 if(myFavoriteColor === 'no') {
@@ -31,6 +35,7 @@ if(myFavoriteColor === 'no') {
 }
 
 var myLastJob = prompt('My last job was in advertising?');
+// console.log(myLastJob);
 myLastJob = myLastJob.toLowerCase();
 
 if(myLastJob === 'no') {
@@ -40,6 +45,7 @@ if(myLastJob === 'no') {
 }
 
 var howManyKids = prompt('Do I have 3 kids?');
+// console.log(howManyKids);
 howManyKids = howManyKids.toLowerCase();
 
 if(howManyKids === 'no') {
