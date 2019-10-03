@@ -6,7 +6,7 @@
 
 header {
         height: 75px;
-        margin: 0 auto;
+        margin: 10px auto;
         background-color: rgb(169, 160, 252);
         font-size: 20pt;
         text-align: center;
@@ -17,8 +17,8 @@ header {
 
 body {
     width: 960px;
-    margin: 10px auto;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(178, 248, 248);
     align-content: center;
@@ -28,15 +28,18 @@ img {
     height: 200px;
     width: 175px;
     border-radius: 30px;
-    margin: 10px;
+    margin: 15px;
     float: left;
 }
-
-/* the area below styles the footer */
 #running { 
     height: 200px;
     width: 250px;
     border-radius: 30px;
     margin: 10px;
     float: left;
+}
+
+#topTen {
+    float: left;
+
 }
