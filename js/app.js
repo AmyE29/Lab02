@@ -109,7 +109,7 @@ function questionSix() {
       alert ('that\'s a strange answer');
     }
   }
-  alert ('The correct answer was 6');
+  alert ('The correct answer was ' + answerNumber);
 }
 questionSix();
 
@@ -127,7 +127,7 @@ function questionSeven() {
       alert('Nope, try again.');
     }
   }
-  alert ('The correct answers are mustard, peaches, mayonaise, coconut, raisins and olives');
+  alert ('The correct answers are ' + worstFoods);
 }
 questionSeven();
 
