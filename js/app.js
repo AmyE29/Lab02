@@ -71,28 +71,32 @@ if(howManyKids === 'no' || howManyKids === 'n') {
   alert ('That\'s a strange answer');
 }
 
-for (var i=0; i <=3 ; i++) {
+var answerNumber = 6;
+for (var i=0; i < 4 ; i++) {
   var guessNumber = prompt('Guess a number between 1-10');
   // console.log('guessNumber:' + guessNumber);
 
-  if (guessNumber < 5){
-    alert('Too low, try again.');
-  }else if (guessNumber > 5){
-    alert('Too high, try again');
-  } if(guessNumber === '5'){
+  guessNumber = parseInt(guessNumber);
+  if(guessNumber === answerNumber){
     alert('Great Guess, You\'re correct!!!');
     counter++;
     break;
-  }if (i === 3){
-    alert ('Ooops! Out of tries.  The correct answer was 5');
+  } else if (guessNumber < answerNumber){
+    alert('Too low, try again.');
+  } else if (guessNumber > answerNumber){
+    alert('Too high, try again');
+  } else {
+    alert ('that\'s a strange answer');
   }
 }
+alert ('The correct answer was 6');
+
 
 var worstFoods = ['mustard', 'peaches', 'mayonaise', 'coconut','raisins','olives' ];
 for (var f=0; f <= 5; f++){
-  var guessFoods = prompt('Guess which 6 foods I refuse to eat');
+  var guessFoods = prompt('Guess which foods I absolutely hate');
   // console.log('guessFoods:' + guessFoods);
-
+  guessFoods = guessFoods.toLowerCase();
   if (guessFoods === worstFoods[0] || guessFoods === worstFoods[1] || guessFoods === worstFoods[2] || guessFoods === worstFoods[3] || guessFoods === worstFoods[4] || guessFoods === worstFoods[5]){
     alert('Great Guess, I hate ' + guessFoods + ' !!!');
     counter++;
@@ -100,10 +104,8 @@ for (var f=0; f <= 5; f++){
   } else if(guessFoods !== worstFoods[f]){
     alert('Nope, try again.');
   }
-}if (i === 5){
-  alert ('The correct answers are mustard, peaches, mayonaise, coconut, raisins and olives');
 }
-
+alert ('The correct answers are mustard, peaches, mayonaise, coconut, raisins and olives');
 
 // eslint-disable-next-line no-unused-vars
 var thankYou = alert('Thank you ' + userName + '!  I hope you enjoyed my quiz! You got ' + counter + ' out of 7 questions correct');
