@@ -79,6 +79,20 @@ for (var i=0; i <=3 ; i++) {
     alert ('Ooops! Out of tries.  The correct answer was 5');
   }
 }
+var worstFoods = ['mustard', 'peaches', 'mayonaise', 'coconut','raisins','olives' ];
+for (var f=0; f <= 5; f++){
+  var guessFoods = prompt('Guess which 6 foods I refuse to eat');
+  // console.log('guessFoods:' + guessFoods);
+
+  if (guessFoods === worstFoods[0] || guessFoods === worstFoods[1] || guessFoods === worstFoods[2] || guessFoods === worstFoods[3] || guessFoods === worstFoods[4] || guessFoods === worstFoods[5]){
+    alert('Great Guess, I hate ' + guessFoods + ' !!!');
+    break;
+  } else if(guessFoods !== worstFoods[f]){
+    alert('Nope, try again.');
+  }
+}if (i === 5){
+  alert ('The correct answers are mustard, peaches, mayonaise, coconut, raisins and olives');
+}
 
 // eslint-disable-next-line no-unused-vars
 var thankYou = alert('Thank you ' + userName + '!  I hope you enjoyed my quiz!');
