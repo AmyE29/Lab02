@@ -19,6 +19,7 @@ if(whereWasIBorn === 'yes' || whereWasIBorn === 'y') {
   alert ('That\'s a strange answer');
 }
 
+
 var didIgoToCollege = prompt('Did I attend a 4 year college?');
 // console.log('didIgoToCollege:' + didIgoToCollege);
 didIgoToCollege = didIgoToCollege.toLowerCase();
