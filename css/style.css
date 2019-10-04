@@ -11,6 +11,7 @@ header {
         font-size: 20pt;
         text-align: center;
         border-top-right-radius: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
 
 /* the area below styles the body>main */
@@ -23,32 +24,41 @@ body {
     background-color: rgb(178, 248, 248);
     align-content: center;
 }
+#amy{
+    height: 300px;
+    width: 275px;
+    border-radius: 30px;
+    margin: 10px;
+    float: left;
+}
 
 img {
     height: 200px;
     width: 175px;
     border-radius: 30px;
-    margin: 15px;
-    display: inline-block;
+    margin: 20px;
+    /* display: inline-block; */
 }
 #running { 
     height: 200px;
     width: 250px;
     border-radius: 30px;
-    margin: 5px;
+    margin: 20px;
     display: inline-block;
 }
 #topTen {
     background-color: whitesmoke;
-    display: inline-block;
+    float:left;
     border: 5px solid rgb(153, 51, 119);
     padding: 10px;
     width: 300px;
+    height: 250px;
 }
 #education {
     background-color: whitesmoke;
-    display: inline-block;
+    float: right;
     border: 5px solid rgb(90, 51, 153);
     padding: 10px;
     width: 350px;
+    height: 250px;
 }
